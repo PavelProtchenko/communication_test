@@ -1,8 +1,8 @@
 # encoding: UTf-8
 #
 
-require_relative 'body'
-require_relative 'result'
+require_relative 'lib/body'
+require_relative 'lib/result'
 
 name = ARGV[0]
 
