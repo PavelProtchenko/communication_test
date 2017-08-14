@@ -1,4 +1,6 @@
 class Body
+  attr_reader :points
+
   def initialize(questions_path)
     unless File.exist?(questions_path)
       abort "File doesn't exist #{questions_path}"
@@ -34,7 +36,4 @@ class Body
     @current_question += 1
   end
 
-  def points
-    @points
-  end
 end
